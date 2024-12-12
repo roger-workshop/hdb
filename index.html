@@ -9,59 +9,56 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1" />
 
-<title>點心宵夜外賣</title>
+<title>HaiDengBerg</title>
 
 <link href="main.css" rel="stylesheet" type="text/css">
 
 <style type="text/css">
 
-.bg-1{
-	background-image:url(Eat-Happy600x325.jpg);
-	width:600px;}
-
-.bg-2 {
-	background-color:#F69;
+.bg {
+	background-color:#3CF;
 	width: 600px;}
 
-.jacky {
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-stretch:extra-expanded;
-	font-size:80px;
-	font-weight:bold;
-	align-content: center;
-	text-align: center;
-	border: none;
-	color:#FF0;
-	margin-top:10px;
-	margin-bottom: 10px;}
-	
-.qrcode {
-	display:inline-block;
-	width:150px;
-	alignment-conteny:center;
-	margin-left:10px;
-	margin-top:15px;}	
-
-.title {
-	font-family:Tahoma, Geneva, sans-serif;
-	font-stretch:extra-expanded;
+.haidengberg {
 	font-weight: bold;
-	width:190px;
-	font-size:30px;
+	font-family: Verdana, Verdana, Geneva, sans-serif;
+	font-size:40px;
 	font-weight:bold;
 	align-content: center;
 	text-align: center;
 	border: none;
 	color:#00C;
-	margin-bottom: 0px;}
+	margin-bottom: 30px;}
 	
+.header{
+	display: flex;
+	display:inline-block;
+	flex-direction: row;
+	text-justify:space-between;
+	width: 95px;
+	line-height: 20px;
+	border: none;
+	background-color:#CCC;
+	border-radius: 10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#03F;
+	align-content: center;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom:3px;}
+.header:hover{color:#0CF;}
+.header:hover{opacity: 0.9;}
+
 .whatsapp-dog {
 	display:inline-block;
-	margin-top:0px;
+	margin-top:10px;
 	margin-left:0px;
 	width:120px;
 	height:120px;
 	vertical-align:top;
+	align-content:center;
 	object-fit:contain;
 	border-top-left-radius:10px;
 	border-top-right-radius:10px;}
@@ -69,46 +66,57 @@ content="width=device-width, initial-scale=1" />
 .whatsapp-me {
 	display:inline-block;
 	margin-top:0px;
-	margin-left:0px;
-	padding-top:0px;
-	font-family:"Arial Black", Gadget, sans-serif;
+	padding:0px;
+	font-family: Arial;
 	font-size: 18px;
 	font-weight:bold;
-	color:#00F;
+	color:#FF9;
+	align-content: center;
 	text-align:center;
 	vertical-align:central;
-	width: 140px;
-	line-height:22px;
-	cursor:pointer;}
-.whatsapp-me:hover{color:#0CF}
+	width: 120px;
+	height:70px;
+	cursor:pointer;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	margin-bottom: 30px;}
+.whatsapp-me:hover{color:#0F0;}
 
-.picture {
-	display:inline-block;
-	margin-top:0px;
-	margin-left:90px;
-	width:400px;
-	vertical-align:top;
-	object-fit:contain;
-	border-radius:10px;}
-	
-.dianxin {
-    display:inline-block;
-	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-stretch:extra-expanded;
-	font-size:30px;
-	font-weight:bold;
-	align-content: center;
-	text-align: center;
+.product {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 22px;
+	color:#00F;
+	text-align:center;
+	line-height:40px;
+	width: 520px;
 	border: none;
-    width:200px;
-	line-height:20px;
-	color:#000;
-    margin-left:0px;
-    padding:0px;
-	cursor:pointer;}
-.dianxin:hover{color:#0F0;}
+	border-radius: 0px;
+	background-color:#CCC;
+	cursor: pointer;
+	margin-left:35px;
+	margin-bottom: 0px;
+	padding-left:0px;}
+.product:hover{color:#0CF}
+.product:hover{opacity:0.9}	
 
-
+.service {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 22px;
+	color:#00F;
+	text-align:center;
+	line-height:40px;
+	width: 520px;
+	border: none;
+	border-radius: 0px;
+	background-color:#CCC;
+	cursor: pointer;
+	margin-left:35px;
+	margin-bottom: 0px;
+	padding-left:0px;}
+.product:hover{color:#0FF;
+.product:hover{opacity:0.9}	
 
 </style>
 
@@ -118,279 +126,159 @@ content="width=device-width, initial-scale=1" />
 
 <body>
 
-<div class="bg-1">
+<div class="bg">
 	
-<div></div>
-
-	<div class="jacky"
-    style="
-    margin-left:35px;
-    line-height:100px;">
-    點心仔</div>
-    
-<div></div>
-    
-<div class="bg-2">
+<div class="haidengberg">HaiDengBerg Network Systems Workshop<br>海登堡網絡系統工作室</div>
 
 <div></div>
 
-
-   	<div class="qrcode"
+	<div class="header"
     style="display:inline-block;
-    width:150px;">
+    width:95px;
+    line-height:22px;">HDB<br>海登堡</div>    
     
-    <img class="qrcode"
-    style="
-    display:inline-block;
-    margin-left:20px;
-    vrtical align:top;
-    margin-bottom:50px;"
-    src="dianxinQRcode150x150.jpg" width="150" height="152" alt="QR code" longdesc="dianxinQRcode150x150.jpg"> 
-    </div>    
-    
-    <div class="title"
+    <div class="header"
     style="display:inline-block;
-    margin-top:70px;
-    margin-left:50px;
-    vertical-align:top;    
-    ">MENU<br>點心宵夜外賣</div>
+    width:95px;
+    line-height:22px;">our work<br>業務</div>
+ 
+  	<div class="header">
+    <a class="header"
+    style="display:inline-block;
+    width:95px;"
+   	href="LCD-DisplaySolutions.html">Solutions<br>方案</a>
+    </div>
     
-    
-    <div style="
+    <div class="header">
+    <a class="header"
+    style="display:inline-block;
+    width:95px;"
+    href="LCD-Display-Projects.html">Projects<br>項目</a>
+   	</div>
+        
+	<div class="header"
+    style="display:inline-block;
+    width:95px;
+    line-height:22px;">About Us<br>視野</div>
+
+	<div class="header">
+    <a class="header"
+    style="display:inline-block;
+    width:95px;"
+    href="ContactUs.html">contact us<br>聯係</a>
+	</div>
+
+
+<div></div>
+
+<div style="
 	display:inline-block;
-    vertical-align:top;
     width:120px;
-    height:80px;
-    margin-left:20px;
-    padding-top:30px;
-    padding-bottom:0px;">
-    
-    <img class="whatsapp-dog"
+    height:120px;
+    margin-left:240px;
+    padding-top:50px;
+    padding-bottom:140px;">
+     
+	<img class="whatsapp-dog"
     style="
     display:inline-block;
-    margin-left:10px;
     vertical-align:top;"
     src="whatsapp-dog.jpg" width="449" height="500" alt="whatsapp-dog" longdesc="whatsapp-dog.jpg">  
 
   	<a class="whatsapp-me"
     style="display:inline-block;
     vertical-align:top;"
-    href="https://api.whatsapp.com/send/?phone=85244657705&text&type=phone_number&app_absent=0" target="_blank">
+    href="https://api.whatsapp.com/send/?phone=85252812555&text&type=phone_number&app_absent=0" target="_blank">
     謝謝來訪<br>
-	WhatsApp me<br>
-	外賣熱綫<br>
-	4465 7705</a></div>
+	whatsapp me<br>
+	get in touch<br>
+	5281 2555</a>
+</div>
+    
+<div></div>
+
+<div style="
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:36px;
+    font-weight: bold;
+    color:#00C;
+	align-content: center;
+	text-align: center;
+	border: none;
+	margin-bottom: 30px;">Product 產品</div>
+ 
+	<div class="product" 
+	style="padding-top:10px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;">
+    <a class="product"
+    href="LA-ProductCatalog.html">* LA Digital Signage 電子顯示屏</a></div>
+        
+	<div class="product">
+    <a class="product"
+    href="FA Interactive 雲端遙距互動視頻會議系統.html">* FA interactive 雲端遙距互動視頻會議系統</a></div>
+    
+    <div class="product">* WiFi上網系統</div>
+    
+    <div class="product">* 上網 IPcam cctv 攝像系統</div>
+    
+    <div class="product">* 上網 Door Access 面容識別門禁系統</div>
+    
+    <div class="product">* 上網 Network System Equipment 網絡設備</div>
+    
+    <div class="product">* PA 音響廣播系統</div>
+     
+    <div class="product"
+    style="
+    padding-bottom:10px;
+    margin-bottom:30px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;">* 數據中心 IaaS 設備</div>
+	
+<div style="
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:36px;
+    font-weight: bold;
+    color:#00C;
+	align-content: center;
+	text-align: center;
+	border: none;
+    margin-top:50px;
+	margin-bottom: 50px;
+    ">Technical Services 技術服務</div>
+    
+   	<div class="service" 
+	style="padding-top:10px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;">
+    <a class="product"
+    href="Manuals-Catalog.html">* Manuals Catalog 用戶手冊技術手冊資料</a>
+    </div>
+    
+    <div class="service">
+    <a class="product"
+    href="Digital-Signage-TechnicalHighlights.html">* Technical Highlights 技術製作亮點</a>
+    </div>
+           
+    <div class="service"
+    style="
+    padding-bottom:10px;
+    margin-bottom:30px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;"> * Service hot-line 服務熱綫</div> 
+    
 
 <div></div>
 
 <div style="
-	font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-    font-stretch:extra-expanded;
-    font-weight:bold;
-    font-size:50px;
-    line-height:50px;
-	margin-top:0px;
-    padding-top:0px;
-    color:#FF0;
+	margin-top:100px;
+    color:#F30;
+	font-size:30px;
+	font-weight:bold;
 	text-align:center;
-    margin-left:0px;
-    padding-bottom:0px;"
-	<p>即叫即蒸<br>天天晚上 8pm - 3am</p></div>	
-
-<div></div>
-
-	<img class="picture"
-    style="
-    display:inline-block;"
-   	src="dianxin400x211.jpg" width="400" height="211" alt="dianxin" longdesc="dianxin400x211.jpg">
-    
-<div></div>
-
-<div style="
-	font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-    font-stretch:extra-expanded;
-    font-weight:bold;
-    font-size:30px;
-    line-height:30px;
-	margin-top:10px;
-    padding-top:0px;
-    color:#03F;
-	text-align:center;
-    margin-left:10px;
-    padding-bottom:0px;"
-	<p>點心 飽點 全部22元</p></div>	
-    
-    
-<div></div>
-
-
-<div style="
-	display: inline-block;
-    font-size:20px;
-    font-weight:bold;
-    margin-top:0px;">
-    
-    <div class="dianxin" 
-    style="
-    display:inline-block;
-    margin-left:60px;
-    padding-left:5px;
-    ">豉椒排骨飯</div>
-    
-    <div class="dianxin"
-    style="
-    display:inline-block;
-    margin-left:30px;
-    padding-left:5px;">秘制糯米雞</div>
-</div>
-
-<div></div>
-
-<div style="
-	display: inline-block;
-    font-size:20px;
-    font-weight:bold;
-    margin-top:10px;">
-    
-    <div class="dianxin" 
-    style="
-    display:inline-block;
-    margin-left:60px;
-    padding-left:5px;
-    ">鮮蝦燒賣</div>
-    
-    <div class="dianxin"
-    style="
-    display:inline-block;
-    margin-left:30px;
-    padding-left:5px;">香茜牛肉球</div>
-</div>
-
-<div></div>
-
-<div style="
-	display: inline-block;
-    font-size:20px;
-    font-weight:bold;
-    margin-top:10px;">
-    
-    <div class="dianxin" 
-    style="
-    display:inline-block;
-    margin-left:60px;
-    padding-left:5px;
-    ">懷舊蝦餃</div>
-    
-    <div class="dianxin"
-    style="
-    display:inline-block;
-    margin-left:30px;
-    padding-left:5px;">黑椒牛仔骨</div>
-</div>
-
-<div></div>
-
-<div style="
-	display: inline-block;
-    font-size:20px;
-    font-weight:bold;
-    margin-top:10px;">
-    
-    <div class="dianxin" 
-    style="
-    display:inline-block;
-    margin-left:60px;
-    padding-left:5px;
-    ">醬香金錢肚</div>
-    
-    <div class="dianxin"
-    style="
-    display:inline-block;
-    margin-left:30px;
-    padding-left:5px;">黑椒豬大腸</div>
-</div>
-
-<div></div>
-
-<div style="
-	display: inline-block;
-    font-size:20px;
-    font-weight:bold;
-    margin-top:10px;">
-    
-    <div class="dianxin" 
-    style="
-    display:inline-block;
-    margin-left:60px;
-    padding-left:5px;
-    ">醬汁鳳爪</div>
-    
-    <div class="dianxin"
-    style="
-    display:inline-block;
-    margin-left:30px;
-    padding-left:5px;">豉椒排骨</div>
-</div>
-
-<div></div>
-
-<div style="
-	display: inline-block;
-    font-size:20px;
-    font-weight:bold;
-    margin-top:10px;">
-    
-    <div class="dianxin" 
-    style="
-    display:inline-block;
-    margin-left:60px;
-    padding-left:5px;
-    ">爆醬奶皇飽</div>
-    
-    <div class="dianxin"
-    style="
-    display:inline-block;
-    margin-left:30px;
-    padding-left:5px;">蜜味叉燒飽</div>
-</div>
-
-<div></div>
-
-<div style="
-	display: inline-block;
-    font-size:20px;
-    font-weight:bold;
-    margin-top:10px;">
-    
-    <div class="dianxin" 
-    style="
-    display:inline-block;
-    margin-left:60px;
-    padding-left:5px;
-    ">烏金奶皇飽</div>
-    
-    <div class="dianxin"
-    style="
-    display:inline-block;
-    margin-left:30px;
-    padding-left:5px;">豉椒排骨鳳爪</div>
-</div>
-
-<div></div>
-
-
-<div style="
-	font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-    font-stretch:extra-expanded;
-    font-weight:bold;
-    font-size:30px;
-	margin-top:60px;
-    padding-top:0px;
-    color:#FF0;
-	text-align:center;
-    margin-left:0px;
-    padding-bottom:40px;"
-	<p>點心仔<br>謝謝惠顧<br>敬禮</p></div>
+	padding-bottom:30px;"
+	<p>HDB<br>
+	海登堡</p></div>
 
 </div>
 </body>
